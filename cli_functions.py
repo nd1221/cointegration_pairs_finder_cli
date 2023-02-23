@@ -11,7 +11,7 @@ from bug_fix import *
 def process_ticker_search(inputs: tuple) -> tuple:
     """Handles user's search inputs for 'find-pair' command."""
     # Click only allows fixed user inputs or indefinited, I wanted variable but fixed number: 1|2
-    # Also wanted different types of input to be passed => need to do this manually
+    # Also wanted different types of input to be passed -> need to do this manually
 
     processed_input = _user_input_dict(inputs)
 
