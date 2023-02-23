@@ -1,0 +1,7 @@
+click
+datetime
+matplotlib
+pandas
+scrapy
+statsmodels
+yfinance
