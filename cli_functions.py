@@ -1,8 +1,8 @@
 import yfinance as yf
-import json # For reading in .json files as python
+import json
 import click
 import sys
-import pickle # To save pairs to file
+import pickle
 from cointegration_test import *
 from bug_fix import *
 
