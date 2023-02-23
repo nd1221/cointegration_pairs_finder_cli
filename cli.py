@@ -14,12 +14,10 @@ ROBUST = ('adf', 'kpss')
 def main():
     pass
 
-
 @click.command()
 def show_markets():
     """List available markets which program can search through"""
     click.secho("Markets available:\n\n AMEX | LSE | NYSE | NASDAQ | FOREX | ETF | FTSE | SP500 \n", bold=True)
-
 
 @click.command()
 @click.argument(
