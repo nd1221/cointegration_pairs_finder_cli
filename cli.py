@@ -178,7 +178,8 @@ def delete(r, save, delete_all, pair_index):
     Deletes a saved CointegratioPair object/range of objects from 'pairs.p'\n
     Enter saved pair's index to delete\n
     '-r {index 1} {index 2}' specifies a range to be deleted\n
-    '-s' flag which deletes all pairs but the input selection/range
+    '-s' flag which deletes all pairs but the input selection/range\n
+    '-a' delete all pairs
     """
     all_pairs = load_in_saved_pairs()
     
